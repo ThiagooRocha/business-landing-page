@@ -1,0 +1,27 @@
+#features__section {
+    padding-top: calc(9rem + 1.9rem);
+}
+.container__video {
+    width: 100%;
+    height: 21.5rem;
+    background: var(--primary);
+    border-radius: 1.8rem;
+
+    margin-top: 6.6rem;
+}
+
+.features__infos {
+    margin-top: 6.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5rem;
+    padding-inline: 8.1rem;
+}
+
+.features__infos__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}

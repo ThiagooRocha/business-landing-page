@@ -1,0 +1,69 @@
+#contact__section .header__section{
+    margin-bottom: 5rem;
+}
+
+.social__links {
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.contact__infos {
+    padding-block: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.contact__infos div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form__contact {
+    padding-block: 5rem;
+}
+.form__contact form {
+    background: var(--light-text);
+    border: 1px solid #DDDDDD;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+
+    padding: 5.2rem 4.9rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.form__contact form legend {
+    text-align: center;
+}
+.form__contact form input {
+    width: 100%;
+}
+.form__contact textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 19.3rem;
+    max-height: 19.3rem;
+
+    background-color: #F4F4F4;
+
+    border: 1px solid #DDDDDD;
+    padding: 2.3rem 2rem;
+
+    font-family: Roboto, sans-serif;
+    font-size: 1.4rem;
+    color: #18171D;
+}
+.form__contact textarea::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #18171D;
+}
+.form__contact form button {
+    width: max-content;
+}

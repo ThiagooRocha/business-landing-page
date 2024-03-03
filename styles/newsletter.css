@@ -1,0 +1,32 @@
+#newsletter__section .header__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 7.9rem;
+}
+
+#newsletter__section .content__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter__section .infos__newsletter {
+    margin-top: 6.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.form__newsletter {
+    margin-top: 2.9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}

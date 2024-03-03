@@ -1,0 +1,33 @@
+#partners__section .content__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__partners {
+    margin-block: 9.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.container__partners .partners__box {
+    width: 27.3rem;
+    min-height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    padding: 2.5rem;
+    border: 1px solid #D8D8D8;
+}
+
+#partners__section .content__section .btn__primary {
+    padding-block: 2rem;
+}

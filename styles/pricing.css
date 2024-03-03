@@ -1,0 +1,60 @@
+#pricing__section {
+    background-color: var(--dark-background);
+    padding-bottom: 10rem;
+}
+
+#pricing__section .header__section {
+    color: var(--light-text);
+    margin-bottom: 9rem;
+}
+
+.container__pricing {
+    padding: 1.8rem 1.35rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.card__pricing {
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    border-radius: 1rem;
+
+    padding: 4rem;
+}
+.card__actived {
+    color: var(--light-text);
+    background-color: var(--primary);
+    border: 1px solid #DEDEDE;
+}
+.card__actived .btn__primary {
+    background: var(--light-text);
+    color: var(--primary);
+}
+
+.order__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.order__price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.princing__features {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

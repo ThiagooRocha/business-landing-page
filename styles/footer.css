@@ -1,0 +1,43 @@
+#footer {
+    background-color: var(--dark-background);
+}
+
+#footer .wrappler{
+    color: var(--light-text);
+    padding: 10.7rem 6.7rem;
+}
+
+#footer .social__links {
+    margin-bottom: 0;
+}
+
+.list__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.3rem;
+
+    padding-bottom: 7.6rem;
+
+    text-align: center;
+}
+
+.list__item h3 {
+    margin-bottom: 1.5rem;
+}
+.list__item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+#footer .contact__infos {
+    margin-bottom: 5rem;
+}
+
+#footer img {
+    filter: grayscale(100%) sepia(100%) saturate(100%) opacity(100%) brightness(100%) contrast(100%) invert(100%);
+}

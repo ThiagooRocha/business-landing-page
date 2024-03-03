@@ -1,0 +1,19 @@
+#hero__section {
+    padding-top: 9rem;
+}
+
+#hero__section .wrappler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero__section .header__section {
+    color: var(--light-text);
+}
+
+#hero__section .btn__primary {
+    margin-top: 6.9rem;
+    margin-bottom: 26.7rem;
+}
