@@ -9,138 +9,150 @@
 @import url(./styles//contact.css);
 @import url(./styles//footer.css);
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary: #2091F9;
-    --primary-green: #2DC071;
-    --primary-orange: #F15B07;
-    --text: #252B42;
-    --second-text: #374754;
-    --light-text: #FFFFFF;
-    --dark-background: #252B42;
-    --light-background: #FFFFFF;
-    --gradient-background: #222B32;
-
+  --primary: #2091f9;
+  --primary-green: #2dc071;
+  --primary-orange: #f15b07;
+  --text: #252b42;
+  --second-text: #374754;
+  --light-text: #ffffff;
+  --dark-background: #252b42;
+  --light-background: #ffffff;
+  --gradient-background: #222b32;
 }
 
 html {
-    font-family: "Fira Sans", sans-serif;
-    font-size: 62.5%;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 62.5%;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 
-    font-size: 1.6rem;
-    color: var(--text);
+  font-size: 1.6rem;
+  color: var(--text);
 
-    background-color: var(--light-background);
-    background-image: url(./imgs/mobile-background-img.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: auto calc(100% - 1.9rem);
+  background-color: var(--light-background);
+  background-image: url(./imgs/mobile-background-img.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto min(847px, calc(847px - 1.9rem));
 }
 
 section {
-    padding-top: 18rem;
+  padding-top: 18rem;
+  background: var(--light-background);
 }
 section .header__section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.7rem;
 
-    color: var(--text);
-    text-align: center;
+  color: var(--text);
+  text-align: center;
 }
 
 .wrappler {
-    width: min(100%, 105rem);
-    margin: 0 auto;
-    padding: 0 2rem;
+  width: min(100%, 105rem);
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 button {
-    cursor: pointer;
-    background: none;
-    border: none;
-    font-size: 2rem;
-    line-height: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 .btn__primary {
-    display: inline-block;
+  display: inline-block;
 
-    background-color: var(--primary);
-    color: var(--light-text);
-    padding: 1.7rem 6.2rem;
-    border-radius: 3.5rem;
+  background-color: var(--primary);
+  color: var(--light-text);
+  padding: 1.7rem 6.2rem;
+  border-radius: 3.5rem;
 
-    font-size: 2rem;
-    line-height: 2rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 .inp__primary {
-    background-color: #F4F4F4;
-    border: 1px solid #DDDDDD;
-    padding: 1.9rem .5rem 1.9rem 3rem;
-    border-radius: 3.5rem;
+  background-color: #f4f4f4;
+  border: 1px solid #dddddd;
+  padding: 1.9rem 0.5rem 1.9rem 3rem;
+  border-radius: 3.5rem;
 
-    font-family: Roboto, sans-serif;
-    font-size: 1.4rem;
-    color: #18171D;
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  color: #18171d;
 }
 .inp__primary::placeholder {
-    font-family: Roboto, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: #18171D;
+  font-family: Roboto, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #18171d;
 }
 
 h1 {
-    font-size: 7.4rem;
-    line-height: 8.4rem;
+  font-size: 7.4rem;
+  line-height: 8.4rem;
 }
 h2 {
-    font-size: 4.8rem;
-    line-height: 5.5rem;
-    font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 5.5rem;
+  font-weight: 400;
 }
 h3 {
-    font-size: 2rem;
-    line-height: 2.8rem;
-    font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: bold;
 }
 h4 {
-    font-size: 2.8rem;
-    line-height: 4rem;
-    font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 4rem;
+  font-weight: 400;
 }
 h5 {
-    font-size: 1.6rem;
-    line-height: 2.3rem;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
 }
 
 p {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
 }
 
 @media screen and (min-width: 417px) {
-    body {
-        background-image: url(./imgs/desktop-background-img.png);
-        background-size: auto calc(100% - 10.5rem);
-        
-    }
+  body {
+    background-image: url(./imgs/desktop-background-img.png);
+    background-size: auto min(927px, calc(927px - 10.5rem));
+  }
 }
+
+@media screen and (min-width: 750px) {
+  body {
+    background-color: #18171d;
+    background-image: url(./imgs/desktop-background-img.png);
+    background-size: cover /* min(1775px, 100vw) min(927px, calc(927px - 10.5rem)); */
+  }
+  .wrappler {
+    width: min(100%, 177.5rem);
+    padding: 0 16.85rem;
+  }
+}
+
+/* 168.5px | 16.85rem */
